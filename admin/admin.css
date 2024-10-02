@@ -1,0 +1,155 @@
+body{
+    background-color: darkcyan;
+}
+
+h1{
+    text-align: center;
+    color: aqua;
+}
+
+form {
+    border: 10px solid #f1f1f1;
+    margin-top: 24px;
+    margin-left: 340px;
+    margin-right: 340px;
+    margin-block-end: 10px;
+    background-color: cadetblue;
+  }
+  
+  input[type=text], input[type=password] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 0px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  button {
+    background-color: cornflowerblue;
+    color: black;
+    padding: 10px 12px;
+    margin: 8px 160px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+  }
+  
+  .cancelbtn {
+    margin-left: 220px;
+    width: auto;
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    display: block;
+    border-radius: 50%;
+  }
+  
+  .img0 {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  img.avatar {
+    width: 50%;
+    border-radius: 50%;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .username0 {
+    padding: 18px;
+    align-self: center;
+  }
+  
+  span.password {
+    float: right;
+    padding-top: 2px;
+    padding-right: 28px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+
+  /*Registration*/
+
+  * {box-sizing: border-box}
+
+/* Add padding to containers */
+.registerC {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+a {
+  color: yellow;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.create {
+  background-color: cadetblue;
+  text-align: center;
+}
+
+.vl {
+  border-left: 6px solid green;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+
+.left-col{
+  float: left;
+}
+
+.right-col{
+  float: right;
+}
+
